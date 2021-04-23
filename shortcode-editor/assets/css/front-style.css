@@ -1,0 +1,157 @@
+/* line 1, ../sass/front-style.scss */
+.seo-button-bet {
+  display: block;
+  width: 100%;
+  text-align: center;
+  white-space: normal;
+  line-height: 30px !important;
+  padding: 12px 18px;
+  height: auto !important;
+  margin: 25px 0;
+}
+
+/* line 13, ../sass/front-style.scss */
+.rb-bet-shortcode {
+  width: auto;
+  position: relative;
+  margin: 25px 0;
+}
+/* line 18, ../sass/front-style.scss */
+.rb-bet-shortcode .link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+}
+/* line 27, ../sass/front-style.scss */
+.rb-bet-shortcode .link .container {
+  position: relative;
+  width: 100%;
+  border-radius: 4px;
+}
+/* line 32, ../sass/front-style.scss */
+.rb-bet-shortcode .link .container .title {
+  min-height: 20px;
+  border-color: rgba(0, 0, 0, 0.08) transparent rgba(0, 0, 0, 0.08) rgba(0, 0, 0, 0.08);
+  border-style: solid;
+  border-width: 1px;
+  -o-border-image: none 100% / 1 / 0 stretch;
+     border-image: none 100% / 1 / 0 stretch;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 88px 12px 12px;
+  background: transparent -webkit-gradient(linear, right top, left top, from(white), to(#f2f2f2)) repeat scroll 0 0;
+  background: transparent linear-gradient(270deg, white 0%, #f2f2f2 100%) repeat scroll 0 0;
+  border-radius: 4px;
+}
+/* line 44, ../sass/front-style.scss */
+.rb-bet-shortcode .link .container .title p {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+/* line 50, ../sass/front-style.scss */
+.rb-bet-shortcode .link .container .bookmaker {
+  position: absolute;
+  right: 0;
+  width: 80px;
+  border-radius: 4px;
+  min-height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 58, ../sass/front-style.scss */
+.rb-bet-shortcode .link .container .bookmaker .wrapper {
+  width: 100%;
+}
+/* line 61, ../sass/front-style.scss */
+.rb-bet-shortcode .link .container .bookmaker .wrapper .odds {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 4px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+}
+/* line 67, ../sass/front-style.scss */
+.rb-bet-shortcode .link .container .bookmaker .wrapper .odds p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+/* line 75, ../sass/front-style.scss */
+.rb-bet-shortcode .link .container .bookmaker .wrapper .logo {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 24px;
+  width: auto;
+}
+/* line 81, ../sass/front-style.scss */
+.rb-bet-shortcode .link .container .bookmaker .wrapper .logo img {
+  width: 64px;
+  height: auto;
+}
+/* line 92, ../sass/front-style.scss */
+.rb-bet-shortcode .link:hover .title {
+  background: transparent;
+}
+/* line 95, ../sass/front-style.scss */
+.rb-bet-shortcode .link:hover * {
+  color: white;
+}
+/* line 100, ../sass/front-style.scss */
+.rb-bet-shortcode .link p {
+  color: #212121;
+}
+/* line 105, ../sass/front-style.scss */
+.rb-bet-shortcode .note {
+  margin-top: 4px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+/* line 109, ../sass/front-style.scss */
+.rb-bet-shortcode .note a {
+  line-height: 20px;
+  font-size: 12px;
+}
+/* line 112, ../sass/front-style.scss */
+.rb-bet-shortcode .note a p {
+  font-size: 12px;
+  line-height: 1.3;
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 599px) {
+  /* line 122, ../sass/front-style.scss */
+  .rb-bet-shortcode {
+    width: 100%;
+    max-width: 100%;
+  }
+  /* line 125, ../sass/front-style.scss */
+  .rb-bet-shortcode .link {
+    width: 100%;
+  }
+}

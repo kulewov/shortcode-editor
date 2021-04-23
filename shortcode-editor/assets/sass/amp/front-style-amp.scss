@@ -1,0 +1,125 @@
+// RbBet shortcode стили
+.d-flex {
+    display: flex;
+}
+
+.rb-bet-shortcode {
+    width: auto;
+    position: relative;
+    margin: 25px 0;
+
+    .link {
+        transition: all 0.3s;
+        display: block;
+        position: relative;
+        width: fit-content;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 4px;
+
+        &:active {
+            .title {
+                background: transparent;
+            }
+        }
+
+        .bookname {
+            text-align: center;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            border-radius: 4px;
+
+            .title {
+                min-height: 20px;
+                border: 1px solid rgba(0, 0, 0, 0.08);
+                border-image: none 100% / 1 / 0 stretch;
+                width: 100%;
+                align-items: center;
+                padding: 12px 88px 12px 12px;
+                border-radius: 4px;
+                background: rgba(0, 0, 0, 0) linear-gradient(270deg, rgb(255, 255, 255) 0%, rgb(242, 242, 242) 100%) repeat scroll 0 0;
+
+                p {
+                    margin: 0;
+                    overflow-wrap: break-word;
+                }
+            }
+
+            .bookmaker {
+                position: absolute;
+                right: 0;
+                width: 80px;
+                border-radius: 4px;
+                min-height: 100%;
+                align-items: center;
+
+                .wrapper {
+                    width: 100%;
+
+                    .odds {
+                        display: flex;
+                        justify-content: center;
+                        width: auto;
+
+                        p {
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: rgb(255, 255, 255);
+                        }
+                    }
+
+                    .logo {
+                        box-sizing: border-box;
+                        height: 24px;
+                        width: auto;
+                        padding: 4px 8px;
+                    }
+
+                }
+            }
+        }
+
+        &:hover {
+            .title {
+                background: transparent;
+            }
+            * {
+                color: rgb(255, 255, 255);
+            }
+        }
+
+        p {
+            color: #212121;
+        }
+    }
+
+    .note {
+        margin-top: 4px;
+        width: fit-content;
+
+        a {
+            line-height: 20px;
+            font-size: 12px;
+
+            p {
+                font-size: 12px;
+                line-height: 1.3;
+                overflow-wrap: break-word;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .rb-bet-shortcode {
+        max-width: 100%;
+
+        .link {
+            width: 100%;
+        }
+    }
+}

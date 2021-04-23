@@ -1,0 +1,146 @@
+/* line 2, ../../sass/amp/front-style-amp.scss */
+.d-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 6, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode {
+  width: auto;
+  position: relative;
+  margin: 25px 0;
+}
+/* line 11, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: block;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+}
+/* line 21, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link:active .title {
+  background: transparent;
+}
+/* line 26, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link .bookname {
+  text-align: center;
+}
+/* line 30, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link .container {
+  position: relative;
+  width: 100%;
+  border-radius: 4px;
+}
+/* line 35, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link .container .title {
+  min-height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  -o-border-image: none 100% / 1 / 0 stretch;
+     border-image: none 100% / 1 / 0 stretch;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 88px 12px 12px;
+  border-radius: 4px;
+  background: transparent -webkit-gradient(linear, right top, left top, from(white), to(#f2f2f2)) repeat scroll 0 0;
+  background: transparent linear-gradient(270deg, white 0%, #f2f2f2 100%) repeat scroll 0 0;
+}
+/* line 45, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link .container .title p {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+/* line 51, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link .container .bookmaker {
+  position: absolute;
+  right: 0;
+  width: 80px;
+  border-radius: 4px;
+  min-height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 59, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link .container .bookmaker .wrapper {
+  width: 100%;
+}
+/* line 62, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link .container .bookmaker .wrapper .odds {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+}
+/* line 67, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link .container .bookmaker .wrapper .odds p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+/* line 75, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link .container .bookmaker .wrapper .logo {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 24px;
+  width: auto;
+  padding: 4px 8px;
+}
+/* line 87, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link:hover .title {
+  background: transparent;
+}
+/* line 90, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link:hover * {
+  color: white;
+}
+/* line 95, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .link p {
+  color: #212121;
+}
+/* line 100, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .note {
+  margin-top: 4px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+/* line 104, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .note a {
+  line-height: 20px;
+  font-size: 12px;
+}
+/* line 108, ../../sass/amp/front-style-amp.scss */
+.rb-bet-shortcode .note a p {
+  font-size: 12px;
+  line-height: 1.3;
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 599px) {
+  /* line 118, ../../sass/amp/front-style-amp.scss */
+  .rb-bet-shortcode {
+    max-width: 100%;
+  }
+  /* line 121, ../../sass/amp/front-style-amp.scss */
+  .rb-bet-shortcode .link {
+    width: 100%;
+  }
+}
